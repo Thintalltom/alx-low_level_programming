@@ -5,6 +5,9 @@
  */
 int main(void)
 {
-	fprintf(stderr, "and that piece of art is useful\"- Dora Korpar, 2015-10-19");
+
+	char c[20] = "2015-10-19";
+
+	fprintf(stderr, "and that piece of art is useful\" - Dora kopar %s \n",  c);
 	return (1);
 }
