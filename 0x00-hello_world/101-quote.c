@@ -9,6 +9,6 @@ int main(void)
 
 	char c[20] = "2015-10-19";
 
-	fprintf(stderr, "and that piece of art is useful\" - Dora kopar, %s \n",  c);
+	fprintf(stderr, "and that piece of art is useful\" - Dora Korpar, %s \n",  c);
 	return (1);
 }
