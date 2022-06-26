@@ -6,10 +6,8 @@
  */
 int main(void)
 {
+	char a[20] = "and that piece of art is useful";
 
-	char c[20] = "2015-10-19";
-	char b[20] = "Dora Korpar";
-
-	fprintf(stderr, "and that piece of art is useful\" - %s, %s \n", b, c);
+	write(STDOUT_FILENO, "%s\" - Dora Korpar, 2015-10-19\n", 59);
 	return (1);
 }
