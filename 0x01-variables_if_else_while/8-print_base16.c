@@ -6,16 +6,16 @@
  */
 int main(void)
 {
-int a;
-char b;
+int hex = 0;
+char lo = 'a';
 
-for (a = 0; a < 10; a++)
+for (hex = 0; hex < 10; hex++)
 {
-putchar(a);
+putchar((hex % 10) + '0');
 }
-for (b = 'a'; b <= 'f'; b++)
+for (lo = 'a'; lo <= 'f';)
 {
-putchar((b % 10) + '0');
+putchar(lo++);
 }
 putchar('\n');
 return (0);
