@@ -3,7 +3,7 @@
  *
  *
  */
-int _abs(int)
+int _abs(int b, a)
 {
 int a;
 int b;
