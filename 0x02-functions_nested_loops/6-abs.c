@@ -7,15 +7,12 @@
  */
 int _abs(int b)
 {
-int a;
-int b;
-b = abs(a)
-if (a >= 0)
+if (b >= 0)
 {
-return (a);
+return (b);
 }
 else
 {
-return (-a);
+return (-b);
 }
 }
