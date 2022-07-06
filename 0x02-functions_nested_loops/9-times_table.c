@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * times_tables - retrun multiplication table 9
+ * times_table - retrun multiplication table 9
  *
  * Return: Always (Success)
  */
-void times_table(void);
+void times_table(void)
 {
 int a;
 int b;
