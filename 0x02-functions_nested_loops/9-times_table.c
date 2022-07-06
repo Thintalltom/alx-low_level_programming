@@ -11,15 +11,22 @@ int b;
 int multi;
 for (a = 0; a <= 9; a++)
 {
+_putchar('0');
 for (b = 0; b <= 12; b++)
 {
-if (a >= 0 && b >= 0)
-{
+_putchar(',');
+_putchar(' ');
 multi = a * b;
+if (multi <= 9)
+{
+_putchar(' ');
+}
+else
+{
 _putchar((multi / 10) + '0');
 _putchar((multi % 10) + '0');
-_putchar(',');
-_putchar('\t');
 }
+}
+_putchar('\n');
 }
 }
