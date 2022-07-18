@@ -18,7 +18,7 @@ if (c == *s)
 {
 return (c + 1)
 }
-else if(c != s)
+else if(c != *s)
 {
 return (NULL)
 }
