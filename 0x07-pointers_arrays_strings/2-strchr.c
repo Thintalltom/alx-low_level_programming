@@ -1,4 +1,4 @@
-#include "main.h"
+8#include "main.h"
 #include <stdio.h>
 
 /**
@@ -16,10 +16,10 @@ while (c == *s)
 *s++
 if (c == *s)
 {
-return (c + 1)
+return (c - 1);
 }
 else if(c != *s)
 {
-return (NULL)
+return (NULL);
 }
 }
