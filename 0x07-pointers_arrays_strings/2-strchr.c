@@ -10,18 +10,19 @@
  */
 char *_strchr(char *s, char c)
 {
-{
-int a;
 
-while (1)
+int i;
+
+i = 0;
+while (i < n && src[i] != '\0')
 {
-a = *s++;
-if (a == c)
-{
-return (s - 1);
+dest[i] = src[i];
+i++;
 }
-if (a == 0)
+while (i < n)
 {
-return (NULL);
+dest[i] = '\0';
+i++;
 }
+return (dest);
 }
