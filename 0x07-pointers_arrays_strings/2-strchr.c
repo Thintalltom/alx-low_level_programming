@@ -11,15 +11,19 @@
  */
 char *_strchr(char *s, char c)
 {
-while (c == *s)
 {
-*s++
-if (c == *s)
+int a;
+
+while (1)
 {
-return (c - 1);
+a = *s++;
+if (a == c)
+{
+return (s - 1);
 }
-else if(c != *s)
+if (a == 0)
 {
 return (NULL);
 }
 }
+
