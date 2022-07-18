@@ -11,18 +11,22 @@
 char *_strchr(char *s, char c)
 {
 
-int i;
+while (*s != '\0') /*Declaring WHILE*/
+	{
+		if (*s == c) /*if s ==  c*/
+		{
+			return (s); /*return s*/
+		}
 
-i = 0;
-while (i < n && src[i] != '\0')
-{
-dest[i] = src[i];
-i++;
-}
-while (i < n)
-{
-dest[i] = '\0';
-i++;
-}
-return (dest);
+		++s;
+	}
+
+	if (*s == c)
+	{
+		return (s);
+
+	}
+
+
+	return (0);/* values null*/
 }
